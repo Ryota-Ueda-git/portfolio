@@ -19,12 +19,38 @@ const geistMono = Geist_Mono({
 const siteDescription =
   "Portfolio of Ryota Ueda — data engineer and indie app builder.";
 
+const googleSiteVerification = process.env.GOOGLE_SITE_VERIFICATION;
+
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: {
     default: `${site.name} — Portfolio`,
     template: `%s — ${site.name}`,
   },
   description: siteDescription,
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: site.url,
+    siteName: site.name,
+    title: `${site.name} — Portfolio`,
+    description: siteDescription,
+  },
+  twitter: {
+    card: "summary",
+    title: `${site.name} — Portfolio`,
+    description: siteDescription,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  ...(googleSiteVerification
+    ? { verification: { google: googleSiteVerification } }
+    : {}),
 };
 
 export default function RootLayout({
