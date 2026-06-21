@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Privacy Policy — Kotobana",
   description:
     "Privacy Policy for Kotobana, the gamified English learning iOS app.",
+  alternates: {
+    canonical: "/privacy",
+  },
 };
 
 export default function PrivacyPage() {
