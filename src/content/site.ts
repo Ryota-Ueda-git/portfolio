@@ -67,10 +67,6 @@ export const sideProjects = [
       en: "An iOS app that turns listening, reading, speaking, and writing practice into a garden you nurture over time. Built with SwiftUI and Supabase.",
       ja: "Listening / Reading / Speaking / Writing の記録を庭園として可視化する iOS アプリです。SwiftUI と Supabase で開発しています。",
     },
-    status: {
-      en: "In development",
-      ja: "開発中",
-    },
     privacyPath: "/privacy",
   },
 ] as const;

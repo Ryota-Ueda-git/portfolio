@@ -47,12 +47,7 @@ export function HomeContent() {
           <ul className="space-y-10">
             {sideProjects.map((project) => (
               <li key={project.slug}>
-                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  <h3 className="text-lg font-medium">{project.name}</h3>
-                  <span className="text-sm text-zinc-500 dark:text-zinc-400">
-                    {pick(locale, project.status)}
-                  </span>
-                </div>
+                <h3 className="text-lg font-medium">{project.name}</h3>
                 <LocaleText strings={project.tagline} className="mt-3" />
                 <LocaleText strings={project.description} className="mt-4" />
                 <p className="mt-4 text-sm">
