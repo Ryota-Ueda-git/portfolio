@@ -9,7 +9,7 @@ export const privacyPolicy = {
     en: "Ryota Ueda (上田涼太)",
     ja: "上田涼太（Ryota Ueda）",
   },
-  lastUpdated: "2026-06-21",
+  lastUpdated: "2026-06-28",
   intro: {
     en: "This Privacy Policy explains how Kotobana (“the App”), provided by Ryota Ueda (上田涼太), collects, uses, and protects information when you use the iOS application.",
     ja: "本プライバシーポリシーは、上田涼太（Ryota Ueda）が提供する iOS アプリ「Kotobana」（以下「本アプリ」）において、利用者情報をどのように取得・利用・保護するかを説明するものです。",
@@ -42,8 +42,8 @@ export const privacyPolicy = {
           ja: "端末内のローカルデータ：クラウド同期が利用できない場合やサインイン前は、プロフィール設定、学習記録、タスク、オンボーディング状態などが端末内（UserDefaults 等）に保存されることがあります。",
         },
         {
-          en: "Advertising-related data (planned): after release, the App is planned to display ads through Google AdMob. AdMob and its partners may collect device identifiers (such as the advertising identifier on iOS when permitted), IP address, app interactions with ads, and diagnostic information to deliver, measure, and improve advertising.",
-          ja: "広告関連データ（予定）：リリース後、本アプリでは Google AdMob による広告表示を予定しています。AdMob およびそのパートナーは、許可された場合の iOS 広告識別子、IP アドレス、広告とのやり取り、診断情報などを、広告の配信・測定・改善のために取得する場合があります。",
+          en: "Advertising-related data: the App displays ads through Google AdMob. AdMob and its partners may collect device identifiers (such as the advertising identifier on iOS when permitted), IP address, app interactions with ads, and diagnostic information to deliver, measure, and improve advertising.",
+          ja: "広告関連データ：本アプリでは Google AdMob による広告を表示しています。AdMob およびそのパートナーは、許可された場合の iOS 広告識別子、IP アドレス、広告とのやり取り、診断情報などを、広告の配信・測定・改善のために取得する場合があります。",
         },
       ],
     },
@@ -58,8 +58,8 @@ export const privacyPolicy = {
           ja: "上記情報は、本アプリの機能提供・維持（学習記録、庭園の進行、マイルストーン、任意のフレンド機能）、クラウドサービス利用時の同期、不正利用の防止、サポート対応、安定性向上のために利用します。",
         },
         {
-          en: "Advertising (planned): AdMob data is used to show ads in the App, limit ad frequency, measure ad performance, and help keep the free version available. Where required, we will request your permission on iOS before using data for tracking across apps and websites owned by other companies.",
-          ja: "広告（予定）：AdMob 経由のデータは、本アプリ内での広告表示、表示頻度の調整、広告効果の測定、無料版の維持のために利用されます。必要に応じて、他社のアプリや Web サイトにわたるトラッキングにデータを用いる前に、iOS 上で利用者の許可を求めます。",
+          en: "Advertising: AdMob data is used to show ads in the App, limit ad frequency, measure ad performance, and help keep the free version available. Where required, we request your permission on iOS (App Tracking Transparency) before using data for tracking across apps and websites owned by other companies.",
+          ja: "広告：AdMob 経由のデータは、本アプリ内での広告表示、表示頻度の調整、広告効果の測定、無料版の維持のために利用されます。必要に応じて、他社のアプリや Web サイトにわたるトラッキングにデータを用いる前に、iOS 上（App Tracking Transparency）で利用者の許可を求めます。",
         },
       ],
     },
@@ -106,8 +106,8 @@ export const privacyPolicy = {
           ja: "Supabase（認証・データベース）：アカウント識別子およびクラウドに保存するアプリデータを処理します。詳細は Supabase のプライバシー関連ドキュメントを参照してください。",
         },
         {
-          en: "Google AdMob (advertising, planned): delivers and measures ads. Google may process device and usage information as described in Google’s Privacy Policy and the Google Advertising Policies. AdMob partners may also receive limited data to serve ads.",
-          ja: "Google AdMob（広告・予定）：広告の配信と測定を行います。Google は Google プライバシーポリシーおよび Google 広告ポリシーに従い、端末情報や利用情報を処理する場合があります。AdMob のパートナーにも、広告配信のための限定的なデータが提供されることがあります。",
+          en: "Google AdMob (advertising): delivers and measures ads. Google may process device and usage information as described in Google’s Privacy Policy and the Google Advertising Policies. AdMob partners may also receive limited data to serve ads.",
+          ja: "Google AdMob（広告）：広告の配信と測定を行います。Google は Google プライバシーポリシーおよび Google 広告ポリシーに従い、端末情報や利用情報を処理する場合があります。AdMob のパートナーにも、広告配信のための限定的なデータが提供されることがあります。",
         },
         {
           en: "We do not sell your personal information. We do not share learning logs or garden data with advertisers for their own independent use.",
@@ -140,18 +140,6 @@ export const privacyPolicy = {
         {
           en: "We retain data for as long as necessary to provide the App. You may request deletion of your cloud account and associated data by contacting us using the details below. Some local data may remain on your device until you uninstall the App or clear app data.",
           ja: "本アプリの提供に必要な期間、データを保持します。下記連絡先より、クラウド上のアカウントおよび関連データの削除を請求できます。端末内の一部データは、アプリのアンインストールまたはアプリデータの消去まで残る場合があります。",
-        },
-      ],
-    },
-    {
-      title: {
-        en: "Children’s privacy",
-        ja: "お子様のプライバシー",
-      },
-      paragraphs: [
-        {
-          en: "The App is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided personal information, please contact us so we can take appropriate action.",
-          ja: "本アプリは 13 歳未満のお子様を対象としておらず、13 歳未満から故意に個人情報を収集することはありません。お子様が個人情報を提供したと思われる場合は、ご連絡ください。",
         },
       ],
     },
